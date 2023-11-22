@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: lightgray;
+    display: flex;
+    margin-bottom: 15px;
+}   
+.logo{
+    width: 40%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.heading{
+    width: 70%;
+    padding-top: 30px;
+} 
+.logo img{
+    height: 70px;
+}
+.sidebar{
+    background-color:rgb(207 200 207);
+    width: 150px;
+    height: 81vh;
+
+    padding: 10px;
+    margin-right:20px;
+    /* margin-top: 10px;    */
+}
+.btn{
+    background-color:lightgray;
+    color:black;
+    width: 80%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 5px 0;
+    margin-left: 10px; 
+}
+.container{
+    width: 100%;
+    height: 72vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.logout{
+    background-color:lightgray;
+    color:black;
+    width: 80%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 5px 0;
+    margin-left: 10px; 
+    margin-top: 250px;
+}
+.content{
+    width: 110%;
+    height: 84vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}  
+.leftContainer{
+    background-color: rgb(221 207 207);
+    width: 48%;
+    height: 90%;
+    margin: 20px;
+   
+}  
+.leftContainer div{
+    background-color:#cbc7d3;
+    width: 80%;
+    /* margin: 40px; */
+    margin-inline: 40px;
+    margin-top: 10px;
+    padding: 11px;
+    padding-left: 30px;
+    margin-left: 30px;
+
+}
+div input{
+    padding: 10px;
+    border: none;
+    outline: 0px solid #808080;
+   width: 20vw;
+   /* border-radius: 35px; */
+}
+div select{
+   width: 20vw;
+    padding: 10px;
+    border: none;
+    outline: 0px solid #808080;
+    /* border-radius: 35px; */
+}
+div textarea{
+    width: 26vw;
+   resize: none;
+    /* padding: 15px; */
+    border: none;
+    outline: 0px solid #808080;
+   
+}
+.email input{
+    margin-left: 30px;
+}
+.country input{
+      margin-left: 15px;
+}
+
+#submit{
+    width: 10vw;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 10px;
+}
+iframe{
+    width: 40vw;
+    height: 75vh;
+margin: 20px;
+}
